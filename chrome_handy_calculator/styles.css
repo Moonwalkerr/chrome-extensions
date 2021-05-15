@@ -51,3 +51,28 @@ button{
     display:grid;
     grid-template-columns: repeat(4,1fr);
 }
+
+
+@media screen and (max-width: 500px){
+    .calculator {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .calculator>h1 {
+        letter-spacing: 3px;
+        font-size: 2rem;
+    }
+
+    #calc_input {
+        margin:0.6rem;
+        font-size: 1.8rem;
+        padding: 6px;
+    }
+
+    button {
+        margin: 0.4rem;
+        font-size: 1rem;
+    }
+
+}
