@@ -8,6 +8,7 @@ body{
     align-items: center;
     justify-content:center;
     background-color:teal;
+    padding:20px;
 }
 
 .calculator{
@@ -46,10 +47,11 @@ button{
 }
 #reset{
     background-color:rgb(172, 34, 34);
+    margin:0px rem;
 }
 .calc_btns{
     display:grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
 
@@ -60,7 +62,7 @@ button{
     }
 
     .calculator>h1 {
-        letter-spacing: 3px;
+        letter-spacing: 1px;
         font-size: 2rem;
     }
 
