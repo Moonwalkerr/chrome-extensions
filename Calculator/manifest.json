@@ -5,7 +5,8 @@
     "description":"Chrome Handy Calculator is just another tool injected to your browser for helping you with your numerical calculations",
     "browser_action":{
         "default_popup":"index.html"
-    }
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 
 }
 
