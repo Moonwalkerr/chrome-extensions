@@ -7,6 +7,6 @@
 - Javascript
 
 ## Clone this repository, Go to :
-> chrome://extensions/
-> Turn on the developer mode
-> Load the Directory and have fun using !
+- chrome://extensions/
+- Turn on the developer mode
+- Load the Directory and have fun using !
