@@ -1,10 +1,9 @@
 {
     "manifest_version":2,
     "name":"Chrome Handy Calculator",
-    "version":1.0,
+    "version":"1.0",
     "description":"Chrome Handy Calculator is just another tool injected to your browser for helping you with your numerical calculations",
     "browser_action":{
-        "default_icon":"./assets/calc_icon.png",
         "default_popup":"index.html"
     }
 
