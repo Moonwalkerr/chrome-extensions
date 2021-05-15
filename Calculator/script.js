@@ -14,20 +14,20 @@ document.getElementById("9b").addEventListener("click",()=> input_field(9));
 document.getElementById("0b").addEventListener("click",()=> input_field(0));
 document.getElementById("add").addEventListener("click",()=> input_field("+"));
 document.getElementById("subs").addEventListener("click",()=> input_field("-"));
-document.getElementById("divide").addEventListener("click",()=> input_field("/"));
+document.getElementById("division").addEventListener("click",()=> input_field("/"));
 document.getElementById("multi").addEventListener("click",()=> input_field("*"));
 
 // Selecting the submit and reset buttons and adding their respective event listeners
-document.getElementById("submit").addEventListener("click",()=>calculate);
-document.getElementById("reset").addEventListener("click",()=>reset);
+document.getElementById("submit").addEventListener("click",calculate);
+document.getElementById("reset").addEventListener("click",reset);
 
-const calculate = () =>{
+function calculate() {
     const value = inputField.value;
     const result = eval(value);
     inputField.value = result;
 }
 
-const reset = () =>{
+function reset() {
     inputField.value = "";
 }
 
