@@ -4,3 +4,8 @@ This repository contains some Google Chrome Extensions made by me. Have a look, 
 -  HTML5
 - CSS3
 - Javascript
+
+## Clone this repository, Go to :
+> chrome://extensions/
+> Turn on the developer mode
+> Load the Directory and have fun using !
