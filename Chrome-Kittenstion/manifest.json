@@ -1,0 +1,11 @@
+{
+    "manifest_version":2,
+    "name": "Chrome Kittenson",
+    "description": "This chrome extesion when activated, replaces the images of the web page you load with some kitten images",
+    "version": "0.2",
+    "web_accessible_resources":["imgs/*.jpg"],
+    "content_scripts":[{
+        "matches":["<all_urls>"],
+        "js":["script.js"]
+    }]
+}
